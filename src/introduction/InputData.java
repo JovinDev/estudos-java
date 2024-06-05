@@ -7,9 +7,9 @@ public class InputData {
 
         String word;
         
-        Scanner input = new Scanner(System.in);
-        word = input.nextLine();
-        
+        try (Scanner input = new Scanner(System.in)) {
+            word = input.nextLine();
+        }
         System.out.println("Welcome, " + word + "!");
     }
 }
