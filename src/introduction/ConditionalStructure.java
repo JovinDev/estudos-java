@@ -13,9 +13,9 @@ public class ConditionalStructure {
             
             // Conditional structure if-else to check if the number is positive, negative, or zero
             if (number > 0) {
-                System.out.print("This number is positive");}
+                System.out.println("This number is positive");}
             else if (number < 0) {
-                System.out.print("This number is negative");}
+                System.out.println("This number is negative");}
             else {
                 System.out.println("This number is zero");
             }
