@@ -1,6 +1,6 @@
 package introduction;
 
-public class ArithmeticOperators {
+public class Atv3ArithmeticOperators {
     public static void main(String[] args) {
     
 }
